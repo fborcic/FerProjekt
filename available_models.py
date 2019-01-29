@@ -1,0 +1,11 @@
+from schreiner import SchreinerBuhlmannDeco
+from instantaneous import InstantaneousBuhlmannDeco
+from integer import IntegerBuhlmannDeco
+from diffeq import DiffeqBuhlmannDeco
+from convolution import ConvolutionBuhlmannDeco
+
+MODELS = [SchreinerBuhlmannDeco,
+InstantaneousBuhlmannDeco,
+IntegerBuhlmannDeco,
+DiffeqBuhlmannDeco,
+ConvolutionBuhlmannDeco]
